@@ -17,13 +17,11 @@
             </button>
 
             <!-- Menu -->
-            <ul class="vertical menu">
-                <li><a href="#">Foundation</a></li>
-                <li><a href="#">Dot</a></li>
-                <li><a href="#">ZURB</a></li>
-                <li><a href="#">Com</a></li>
-                <li><a href="#">Slash</a></li>
-                <li><a href="#">Sites</a></li>
+            <ul class="menu">
+                <li class="is-active"><a href="#">Home</a></li>
+                <li><a href="/resume.html">Resume</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Who I am</a></li>
             </ul>
         </div>
         <!-- Your page content lives here -->
@@ -31,21 +29,30 @@
             <!-- main content within a `grid-container` -->
             <div class="grid-container">
                 <!-- `grid-x` represents a row -->
+
+                <ul class="menu expanded">
+                    <li class="is-active"><a href="#">Home</a></li>
+                    <li><a href="/resume.html">Resume</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/fun.html">Who I am</a></li>
+                </ul>
+
+                <!-- This will be where the text itself will be displayed-->
                 <div class="grid-x grid-padding-x">
-                    <div class="cell small-6 large-4 test" style="background-color: #ADD8E6;">Small 6 / Large 4</div>
-                    <div class="cell small-6 large-8" style="background-color: #90EE90;">Small 6 / Large 8</div>
-                </div>
-                
-                <div class="grid-x grid-padding-x">
-                    <div class="cell large-auto" style="background-color: #ADD8E6;">One</div>
-                    <div class="cell large-auto" style="background-color: #90EE90;">Two</div>
-                    <div class="cell large-auto" style="background-color: #ADD8E6;">Three</div>
-                    <div class="cell large-auto" style="background-color: #90EE90;">Four</div>
-                    <div class="cell large-auto" style="background-color: #ADD8E6;">Five</div>
-                </div>
-                
-                <div class="grid-x grid-padding-x">
-                    <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
+                    <div class="cell small-8 large-8 text" style="background-color: #000000;">
+                        <h1>Welcome</h1>
+                        <p>My name is Jesse Berndt-Alonso, I'm currently a senior at the <a href="https://www.stthomas.edu/" id = "st.thomas" target="_blank"> University of St. Thomas</a>. 
+                            I'm majoring in Computer Science with a minor in Data Science. I'm hoping to work within either the cybersecurity or IT Infrastructure fields.
+                            I find myself enjoying these aspects of computer science the most. I'm potentially looking to go for a masters degree in Cybersecurity after I graduate in May of 2026. 
+                            Throughout my time at the <a href="https://www.stthomas.edu/" id = "st.thomas" target="_blank"> University of St. Thomas</a>, I've been able to learn 
+                            many new things that I never even knew existed, which have given me a new drive for learning and improving these gaps of knowledge. 
+                        </p>
+                    </div>
+                    <div class="cell small-4 large-4 text">
+                        <div class="thumbnail">
+                            <img src="media/Headshot.jpg">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

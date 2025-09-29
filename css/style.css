@@ -1,3 +1,16 @@
-.test{
-    color: rgb(255,0,0);
+.text{
+    color: rgb(255,255,255);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
 }
+
+.h1{
+    color:(red);
+}
+
+body {
+    background-color: rgb(0,0,0);
+}
+
+a:link{color: #1983cb;}
+a:visited{color: #1983cb;}
